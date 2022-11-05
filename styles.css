@@ -81,3 +81,7 @@
     max-height: 700px;
   }
 }
+
+.checked {
+  color: orange;
+}
