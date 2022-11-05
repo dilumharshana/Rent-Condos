@@ -7,10 +7,10 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="profile" href="https://gmpg.org/xfn/11" />
       <title>
          2022&#8217;s &#8220;5 Best&#8221; Lip-Plumping Products On The Market​ &#8211; Skincare Brands Reviews
       </title>
+
       <link rel="stylesheet" type="text/css" href="styles.css" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link
