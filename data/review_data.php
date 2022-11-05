@@ -47,14 +47,14 @@ $review_data = [
     	'Keyless entry system'
     ],
     'pros' => [
-    	'Use of Portulaca Pilosa Extract accompanied by Tripeptide-1 and Tripeptide-38',
-    	'Containing Hyaluronic filler spheres',
-    	'Castor seed oil added to the formula for extra hydration',
-    	'Complete list of ingredients provided by the manufacturers'
+    	'-',
+    	'-',
+    	'-',
+    	'-'
     ],
     'cons' => [
-    	'Might be out of stock due to popularity',
-    	'Only available on the company\'s official website'
+    	'-',
+    	'-'
     ]
   ]
 ];
