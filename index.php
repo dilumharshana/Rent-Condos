@@ -22,18 +22,6 @@
       <!-- site navigator btn style -->
       <link
          rel="stylesheet"
-         id="hello-elementor-theme-style-css"
-         href="https://www.skincarebrandsreviews.com/wp-content/themes/hello-elementor/theme.min.css?ver=2.6.1"
-         media="all"
-         />
-      <link
-         rel="stylesheet"
-         id="elementor-icons-css"
-         href="https://www.skincarebrandsreviews.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0"
-         media="all"
-         />
-      <link
-         rel="stylesheet"
          id="elementor-frontend-css"
          href="https://www.skincarebrandsreviews.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.7.8"
          media="all"
@@ -61,27 +49,27 @@
          margin: 50px 15px;
          }
          a.navigator{
- background: linear-gradient(to right,#ffad17 ,#ffaf1b);
- background-color: #ffad17;
- color: #000000;
- font-family: Arial;
- font-size: 21px;
- font-weight: 400;
- font-style: normal;
- text-decoration: none;
- padding: 10px 25px;
- border: 3px solid #cd8501;
- border-radius: 100px;
- display: inline-block;
- box-shadow: 0px 1px 6px -4px #2D2D2D;
-}
-a.navigator:hover{
- background: linear-gradient(to right,#ffb754 ,#ffb955);
- background-color: #ffb754;
-}
-a.navigator:active{
- transform: scale(0.95);
-}
+         background: linear-gradient(to right,#ffad17 ,#ffaf1b);
+         background-color: #ffad17;
+         color: #000000;
+         font-family: Arial;
+         font-size: 21px;
+         font-weight: 400;
+         font-style: normal;
+         text-decoration: none;
+         padding: 10px 25px;
+         border: 3px solid #cd8501;
+         border-radius: 100px;
+         display: inline-block;
+         box-shadow: 0px 1px 6px -4px #2D2D2D;
+         }
+         a.navigator:hover{
+         background: linear-gradient(to right,#ffb754 ,#ffb955);
+         background-color: #ffb754;
+         }
+         a.navigator:active{
+         transform: scale(0.95);
+         }
       </style>
    </head>
    <body
