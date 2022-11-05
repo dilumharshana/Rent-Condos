@@ -1,23 +1,83 @@
 /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 100px) {
+  .banner-title {
+    font-size: 10px;
+  }
+
+  .banner-title-heading {
+    font-size: 8px;
+  }
+
+  .banner-image {
+    max-height: 100px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .banner-title {
-    font-size: 100px;
-    color: red;
+    font-size: 15px;
+  }
+
+  .banner-title-heading {
+    font-size: 8px;
+  }
+
+  .banner-image {
+    max-height: 200px;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-}
+  .banner-title {
+    font-size: 20px;
+  }
 
+  .banner-title-heading {
+    font-size: 20px;
+  }
+
+  .banner-image {
+    max-height: 350px;
+  }
+}
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (max-width: 992px) {
+  .banner-title-heading {
+    margin-top: -60%;
+    font-size: 30px;
+  }
+
+  .banner-title-heading {
+    font-size: 30px;
+  }
+
+  .banner-image {
+    max-height: 400px;
+  }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .banner-title-heading {
+    font-size: 30px;
+    font-size: 40px;
+  }
+
+  .banner-image {
+    max-height: 400px;
+  }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
+  .banner-title-heading {
+    margin-top: -30%;
+    font-size: 50px;
+  }
+
+  .banner-image {
+    max-height: 700px;
+  }
 }
