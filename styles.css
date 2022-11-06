@@ -24,7 +24,7 @@
   }
 
   .banner-image {
-    max-height: 200px;
+    max-height: 300px;
   }
 }
 
@@ -39,7 +39,7 @@
   }
 
   .banner-image {
-    max-height: 350px;
+    max-height: 400px;
   }
 }
 /* Large devices (desktops, 992px and up) */
@@ -54,7 +54,7 @@
   }
 
   .banner-image {
-    max-height: 400px;
+    max-height: 500px;
   }
 }
 
@@ -66,7 +66,7 @@
   }
 
   .banner-image {
-    max-height: 400px;
+    max-height: 500px;
   }
 }
 
@@ -80,4 +80,8 @@
   .banner-image {
     max-height: 700px;
   }
+}
+
+.checked {
+  color: orange;
 }
