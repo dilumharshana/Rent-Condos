@@ -5,8 +5,8 @@ $review_data = [
     'name' => '#1 VIDA Edgewater',
     'images' => [
     	['url'=> 'assets/images/vida.webp', 'is_active'=> 'active'], 
-    	['url'=> 'assets/images/vida1.jpg', 'is_active'=> ''], 
-    	['url'=> 'assets/images/vida2.png', 'is_active'=> '']
+    	// ['url'=> 'assets/images/vida1.jpg', 'is_active'=> ''], 
+    	// ['url'=> 'assets/images/vida2.png', 'is_active'=> '']
     ],
     'sub_txt_1' => 'VIDA Edgewater Residences',
     'sub_txt_2' => 'Midtown - Edgewater / 2024',
@@ -205,8 +205,8 @@ $review_data = [
 			"4" => [
 				'name' => '#4 Nexo Residences',
 				'images' => [
-					['url'=> 'assets/images/4-1.jpg', 'is_active'=> 'active'], 
-					['url'=> 'assets/images/4-2.jpg', 'is_active'=> ''], 
+					['url'=> 'assets/images/nexo.png', 'is_active'=> 'active'], 
+					// ['url'=> 'assets/images/4-2.jpg', 'is_active'=> ''], 
 				],
 				'sub_txt_1' => 'Nexo Residences Miami',
 				'sub_txt_2' => 'New Construction / 2025',

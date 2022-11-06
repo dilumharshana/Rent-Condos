@@ -108,7 +108,7 @@
                      style="color: #fff; padding-top: 1%; padding-bottom: 1%"
                      href="javascript:void(0)"
                      >
-                     The Rise of Ready-to-Rent Condos in Miami
+                     Airbnb’s business is booming — and rates are rising
                   </h3>
                </div>
                <div style="position: relative">
@@ -174,20 +174,16 @@
                   >
                   <div class="elementor-widget-container p-5">
                      <p>
-                        Big juicy lips have been considered a part of fashion and an attractive feature for many decades, and it
-                        seems to be what everyone is aiming to have these days even more than ever. Unluckily, nature
-                        doesn&#8217;t work exactly how we want it to, leaving many people in the world constantly seeking to get
-                        their lips to their ideal size and shape. Well, the good news is, in this world of human-made wonders,
-                        nothing is impossible, and plumping up your lips is no exception either!
+                        Investing in Miami Short-term Rentals
                      </p>
                      <p>
-                        With big plump lips being the trend these days and the biggest fan of these trends, teens, having to
-                        face the obstacle of not getting the surgery, the cosmetic lip plumpers have been going places rapidly.
-                        Dozens of cosmetic manufacturers started launching their lip plumpers line, filling the market with all
-                        kinds of lip plumpers&#8217; brands and editions. That&#8217;s why our team of experts decided to test
-                        out many lip plumpers and bring it down to five of the most popular lip plumping products with volunteer
-                        testers&#8217; aid to provide a guide for you on this incredible product.
-                        <strong>Here&#8217;s the 5 best lip plumping gloss for a luscious pout!</strong>
+                        The city attracts massive amounts of visitors at any time of the year.  You’ll never run out of short-term renters in this bustling tropical oasis.
+                     </p>
+                     <p>
+                        But Miami’s diverse economy and easy access to international markets also make it a gateway to foreign business.  It’s a veritable mecca for housing and real estate investment. According to real estate investing advice company MillionAcres, the city attracts lots of highly educated, high-income  professionals like doctors, lawyers, bankers, financial consultants, and investors.  They come either to visit, work, or play, with some eventually settling.
+                     </p>
+                     <p>
+                        All of those folks need furnished rentals in Miami, whether for short, medium, or long-term stays.
                      </p>
                   </div>
                </div>
