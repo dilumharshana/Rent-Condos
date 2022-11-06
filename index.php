@@ -112,7 +112,6 @@
                      position: absolute;
                      width: 100%;
                      font-family: Arial, Helvetica, sans-serif;
-                     font-weight: bold;
                      color: #ffffff;
                      top: 20%;
                      z-index: 1;
@@ -138,7 +137,6 @@
                               class="banner-image"
                               src="assets/images/banner.jpg"
                               alt="First slide"
-
                               />
                         </div>
                         <div class="carousel-item">
@@ -151,7 +149,7 @@
                         </div>
                         <div class="carousel-item">
                            <img
-                              style="width: 100%; filter: brightness(80%)"
+                              style="width: 100%; filter: brightness(60%)"
                               class="banner-image"
                               src="assets/images/slide 3.jpg"
                               alt="Third slide"
@@ -248,11 +246,11 @@
                                  <div><?php echo $value['sub_txt_1']; ?></div>
                                  <h2><?php echo $value['sub_txt_2']; ?></h2>
                                  <br>
-                                 <div><?php echo $value['sub_txt_3']; ?></div>
-                                 <span><?php echo $value['address']; ?></span>
+                                 <div style="color:grey"><?php echo $value['sub_txt_3']; ?></div>
+                                 <span style="color:grey"><?php echo $value['address']; ?></span>
                                  <br><br>
-                                 <div>Architect/s: <?php echo $value['architect']; ?></div>
-                                 <span>Developed by<?php echo $value['developer']; ?></span>
+                                 <div style="color:grey">Architect/s: <?php echo $value['architect']; ?></div>
+                                 <span style="color:grey">Developed by<?php echo $value['developer']; ?></span>
                               </div>
                               <div class="col-sm-12 col-md-4 col-lg-5 col-xl-5 mt-sm-5 mt-md-5 mt-3 d-flex flex-column">
                                  <div class="col">
@@ -298,8 +296,8 @@
                                  </div>
                               </div>
                            </div>
+                           <?php if(isset($value['link'])){ ?>
                            <div class="row mt-5 d-flex justify-content-center">
-                              <?php if(isset($value['link'])){ ?>
                               <div class="col-10">
                                  <div
                                     class="elementor-element elementor-element-cbdb8e2 elementor-align-center elementor-widget elementor-widget-button"
