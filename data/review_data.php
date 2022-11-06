@@ -67,8 +67,8 @@ $review_data = [
 	"2" => [
 		'name' => '#2 600 Miami World Center',
 		'images' => [
-			['url'=> 'assets/images/2-1.jpg', 'is_active'=> 'active'], 
-			['url'=> 'assets/images/2-2.jpg', 'is_active'=> '']
+			['url'=> 'assets/images/600MWC.jpg', 'is_active'=> 'active'], 
+			// ['url'=> 'assets/images/2-2.jpg', 'is_active'=> '']
 		],
 		'sub_txt_1' => '600 Miami World Center',
 		'sub_txt_2' => 'Miami Downtown / 2026',
@@ -128,7 +128,7 @@ $review_data = [
 			'name' => '#3 Lofty Residences',
 			'images' => [
 				['url'=> 'assets/images/3-1.webp', 'is_active'=> 'active'], 
-				['url'=> 'assets/images/3-2.webp', 'is_active'=> ''], 
+				// ['url'=> 'assets/images/3-2.webp', 'is_active'=> ''], 
 			],
 			'sub_txt_1' => 'Lofty Residences Brickell',
 			'sub_txt_2' => 'Brickell / 2025',
@@ -282,8 +282,8 @@ $review_data = [
 				"5" => [
 					'name' => '#5 The Nomad Wynwood ',
 					'images' => [
-						['url'=> 'assets/images/5-1.png', 'is_active'=> 'active'], 
-						['url'=> 'assets/images/5-2.png', 'is_active'=> ''], 
+						['url'=> 'assets/images/midtown.png', 'is_active'=> 'active'], 
+						// ['url'=> 'assets/images/5-2.png', 'is_active'=> ''], 
 					],
 					'sub_txt_1' => 'Nomad Wynwood Residences',
 					'sub_txt_2' => 'Midtown - Edgewater / 2024',
