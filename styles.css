@@ -12,6 +12,11 @@
     min-height: 80vh;
     content: url('assets/images/banner-mob.jpg');
   }
+
+  .top-title {
+    font-size: 20px;
+    padding: 10px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -26,7 +31,7 @@
 
   .banner-image {
     min-height: 80vh;
-    content: url('assets/images/banner.jpg');
+    /* content: url('assets/images/banner.jpg'); */
   }
 }
 /* Large devices (desktops, 992px and up) */
@@ -42,7 +47,7 @@
 
   .banner-image {
     max-height: 500px;
-    content: url('assets/images/banner.jpg');
+    /* content: url('assets/images/banner.jpg'); */
   }
 }
 
@@ -55,7 +60,7 @@
 
   .banner-image {
     max-height: 500px;
-    content: url('assets/images/banner.jpg');
+    /* content: url('assets/images/banner.jpg'); */
   }
 }
 

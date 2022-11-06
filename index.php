@@ -98,7 +98,7 @@
                   -->
                <div class="container-fluid text-center" style="background: #182848" class="text-center">
                   <h3
-                     class="elementor-heading-title elementor-size-default diplay-5"
+                     class="elementor-heading-title elementor-size-default diplay-5 top-title p-3"
                      style="color: #fff; padding-top: 1%; padding-bottom: 1%"
                      href="javascript:void(0)"
                      >
@@ -133,17 +133,13 @@
                      >
                      <div class="carousel-inner">
                         <div class="carousel-item active">
-<picture>
-  <source media="(max-width:578px)" srcset="assets/images/banner-mob.jpg">
-  <img
+                           <img
                               style="width: 100%; filter: brightness(60%)"
                               class="banner-image"
                               src="assets/images/banner.jpg"
                               alt="First slide"
-                              />
-</picture>
 
-                          
+                              />
                         </div>
                         <div class="carousel-item">
                            <img
