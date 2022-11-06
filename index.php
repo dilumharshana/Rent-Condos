@@ -81,6 +81,13 @@
          a.navigator:active{
          transform: scale(0.95);
          }
+         .video {
+  object-fit: cover;
+  width: 100%;
+  height: 80vh;
+  z-index: -1;
+  /* filter: brightness(40%); */
+}
       </style>
    </head>
    <body
@@ -95,13 +102,13 @@
                   --   :::::: B A N N E R   G O E S   H E R E : :  :   :    :     :        :          :
                   -- ────────────────────────────────────────────────────────────────────────────────── banner
                   -->
-               <div class="container-fluid text-center" style="background: #182848" class="text-center">
+               <div class="container-fluid text-center p-sm-3 p-xl-1" style="background: #182848;" class="text-center">
                   <h3
-                     class="elementor-heading-title elementor-size-default diplay-5"
+                     class="elementor-heading-title elementor-size-default diplay-5 top-heading p-3"
                      style="color: #fff; padding-top: 1%; padding-bottom: 1%"
                      href="javascript:void(0)"
                      >
-                     The Rise of Ready-to-Rent Condos in Miami
+                     Airbnb’s business is booming — and rates are rising
                   </h3>
                </div>
                <div style="position: relative">
@@ -111,14 +118,13 @@
                      position: absolute;
                      width: 100%;
                      font-family: Arial, Helvetica, sans-serif;
-                     font-weight: bold;
                      color: #ffffff;
                      top: 20%;
                      z-index: 1;
                      "
                      >
-                     Condo developments designed as home-sharing properties are multiplying. <br />
-                     Here we compare and show you the pros and cons for 4 preconstruction projects that allow
+                     <span>Condo developments designed as home-sharing properties are multiplying. <br />
+                     Here we compare and show you the pros and cons for 4 preconstruction projects that allow</span>
                      <h1 class="mt-4 banner-title-heading" style="color: rgb(255, 255, 255); font-weight: bold">
                         AIRBNB SHORT TERM RENTALS
                      </h1>
@@ -127,9 +133,9 @@
                      id="carouselExampleSlidesOnly"
                      class="carousel slide"
                      data-ride="carousel"
-                     style="background-color: #182848"
+                  
                      >
-                     <div class="carousel-inner">
+                     <!-- <div class="carousel-inner">
                         <div class="carousel-item active">
                            <img
                               style="width: 100%; filter: brightness(60%)"
@@ -154,7 +160,10 @@
                               alt="Third slide"
                               />
                         </div>
-                     </div>
+                     </div> -->
+                     <video id="" class="video" autoPlay loop muted playsInline>
+                              <source src="assets/videos/bannervid.mp4" type="video/mp4" />
+                            </video>
                   </div>
                </div>
                <div
@@ -165,20 +174,16 @@
                   >
                   <div class="elementor-widget-container p-5">
                      <p>
-                        Big juicy lips have been considered a part of fashion and an attractive feature for many decades, and it
-                        seems to be what everyone is aiming to have these days even more than ever. Unluckily, nature
-                        doesn&#8217;t work exactly how we want it to, leaving many people in the world constantly seeking to get
-                        their lips to their ideal size and shape. Well, the good news is, in this world of human-made wonders,
-                        nothing is impossible, and plumping up your lips is no exception either!
+                        Investing in Miami Short-term Rentals
                      </p>
                      <p>
-                        With big plump lips being the trend these days and the biggest fan of these trends, teens, having to
-                        face the obstacle of not getting the surgery, the cosmetic lip plumpers have been going places rapidly.
-                        Dozens of cosmetic manufacturers started launching their lip plumpers line, filling the market with all
-                        kinds of lip plumpers&#8217; brands and editions. That&#8217;s why our team of experts decided to test
-                        out many lip plumpers and bring it down to five of the most popular lip plumping products with volunteer
-                        testers&#8217; aid to provide a guide for you on this incredible product.
-                        <strong>Here&#8217;s the 5 best lip plumping gloss for a luscious pout!</strong>
+                        The city attracts massive amounts of visitors at any time of the year.  You’ll never run out of short-term renters in this bustling tropical oasis.
+                     </p>
+                     <p>
+                        But Miami’s diverse economy and easy access to international markets also make it a gateway to foreign business.  It’s a veritable mecca for housing and real estate investment. According to real estate investing advice company MillionAcres, the city attracts lots of highly educated, high-income  professionals like doctors, lawyers, bankers, financial consultants, and investors.  They come either to visit, work, or play, with some eventually settling.
+                     </p>
+                     <p>
+                        All of those folks need furnished rentals in Miami, whether for short, medium, or long-term stays.
                      </p>
                   </div>
                </div>
@@ -245,11 +250,11 @@
                                  <div><?php echo $value['sub_txt_1']; ?></div>
                                  <h2><?php echo $value['sub_txt_2']; ?></h2>
                                  <br>
-                                 <div><?php echo $value['sub_txt_3']; ?></div>
-                                 <span><?php echo $value['address']; ?></span>
+                                 <div style="color:grey"><?php echo $value['sub_txt_3']; ?></div>
+                                 <span style="color:grey"><?php echo $value['address']; ?></span>
                                  <br><br>
-                                 <div>Architect/s: <?php echo $value['architect']; ?></div>
-                                 <span>Developed by<?php echo $value['developer']; ?></span>
+                                 <div style="color:grey">Architect/s: <?php echo $value['architect']; ?></div>
+                                 <span style="color:grey">Developed by<?php echo $value['developer']; ?></span>
                               </div>
                               <div class="col-sm-12 col-md-4 col-lg-5 col-xl-5 mt-sm-5 mt-md-5 mt-3 d-flex flex-column">
                                  <div class="col">

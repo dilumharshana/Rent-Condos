@@ -1,7 +1,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 100px) {
   .banner-title {
-    font-size: 10px;
+    font-size: 20px;
   }
 
   .banner-title-heading {
@@ -11,12 +11,16 @@
   .banner-image {
     max-height: 100px;
   }
+
+  .top-heading {
+    font-size: 15px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .banner-title {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .banner-title-heading {
@@ -25,6 +29,10 @@
 
   .banner-image {
     max-height: 300px;
+  }
+
+  .top-heading {
+    font-size: 15px;
   }
 }
 
@@ -41,16 +49,17 @@
   .banner-image {
     max-height: 400px;
   }
+
+  .top-heading {
+    font-size: 30px;
+    padding: 3vw;
+  }
 }
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
   .banner-title-heading {
     margin-top: -60%;
-    font-size: 30px;
-  }
-
-  .banner-title-heading {
-    font-size: 30px;
+    font-size: 50px;
   }
 
   .banner-image {
@@ -61,7 +70,6 @@
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .banner-title-heading {
-    font-size: 30px;
     font-size: 40px;
   }
 
