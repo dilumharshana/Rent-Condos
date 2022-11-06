@@ -81,6 +81,13 @@
          a.navigator:active{
          transform: scale(0.95);
          }
+         .video {
+  object-fit: cover;
+  width: 100vw;
+  height: 80vh;
+  z-index: -1;
+  /* filter: brightness(40%); */
+}
       </style>
    </head>
    <body
@@ -127,9 +134,9 @@
                      id="carouselExampleSlidesOnly"
                      class="carousel slide"
                      data-ride="carousel"
-                     style="background-color: #182848"
+                  
                      >
-                     <div class="carousel-inner">
+                     <!-- <div class="carousel-inner">
                         <div class="carousel-item active">
                            <img
                               style="width: 100%; filter: brightness(60%)"
@@ -154,7 +161,10 @@
                               alt="Third slide"
                               />
                         </div>
-                     </div>
+                     </div> -->
+                     <video id="" class="video" autoPlay loop muted playsInline>
+                              <source src="assets/videos/bannervid2.mp4" type="video/mp4" />
+                            </video>
                   </div>
                </div>
                <div
