@@ -379,7 +379,7 @@
                                              <?php foreach($value['pros'] as $prosKey=>$prosValue): ?>
                                              <li class="elementor-icon-list-item">
                                                 <span class="elementor-icon-list-icon">
-                                                <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                                <i aria-hidden="true" class="fa fa-check-circle"></i>
                                                 </span>
                                                 <span class="elementor-icon-list-text"
                                                    ><?php  echo $prosValue; ?></span
@@ -422,7 +422,7 @@
                                                 <?php foreach($value['cons'] as $consKey=>$consValue): ?>
                                                 <li class="elementor-icon-list-item">
                                                    <span class="elementor-icon-list-icon">
-                                                   <i aria-hidden="true" class="fas fa-times-circle"></i>
+                                                   <i aria-hidden="true" class="fa fa-times-circle"></i>
                                                    </span>
                                                    <span class="elementor-icon-list-text"><?php  echo $consValue; ?></span>
                                                 </li>
