@@ -283,11 +283,11 @@
                                     <div class="elementor-widget-container">
                                        <ul class="elementor-icon-list-items">
                                           <?php foreach($value['ratings'] as $rateKey=>$rateValue): ?>
-                                          <li class="elementor-icon-list-item">
-                                             <span class="elementor-icon-list-icon">
-                                             <i aria-hidden="true" class="fas fa-award"></i>
+                                          <li class="elementor-icon-list-item" style="list-style: none;">
+                                             <span class="elementor-icon-list-icon" style="color: green;">
+                                             <i aria-hidden="true" class="fa <?php echo $rateValue['icon'] ?>"></i>
                                              </span>
-                                             <span class="elementor-icon-list-text"><?php echo $rateValue['name'] ?>: <?php echo $rateValue['rate'] ?>/10</span>
+                                             <span class="elementor-icon-list-text"><?php echo $rateValue['name'] ?>:<b> <?php echo $rateValue['rate'] ?>/10</b></span>
                                           </li>
                                           <?php endforeach; ?>
                                        </ul>

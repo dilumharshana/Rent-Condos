@@ -16,9 +16,12 @@ $review_data = [
     'address' => '410 NE 35th Terrace, Miami, FL 33137, USA',
     'overall_rate' => ['name' => 'Overall Rating', 'rate' => 4.9],
     'ratings' => [
-    	"1" => ['name' => 'Quality Rating', 'rate' => 9.7],
-    	"2" => ['name' => 'Expert Rating', 'rate' => 9.6],
-    	"3" => ['name' => 'Users Rating', 'rate' => 9.8]
+    	"1" => ['name' => 'Staff', 'icon' => 'fa-user-circle-o', 'rate' => 9.7],
+    	"2" => ['name' => 'Facilities', 'icon' => 'fa-building', 'rate' => 9.6],
+    	"3" => ['name' => 'Cleanliness', 'icon' => 'fa-recycle', 'rate' => 9.8],
+    	"4" => ['name' => 'Comfort', 'icon' => 'fa-bath', 'rate' => 9.8],
+    	"5" => ['name' => 'Value for money', 'icon' => 'fa-money', 'rate' => 9.8],
+    	"6" => ['name' => 'Location', 'icon' => 'fa-map-marker', 'rate' => 9.8]
     ],
     'link' => ['name' => 'VIDA Edgewater Site', 'url'=>'https://www.vidaedgewater.com/'],
     'description' => 'VIDA Edgewater is an innovative and contemporary 9-story building with the highly profitable capacity for short term rentals (AirBnB) featuring Studios 1-2 -3 and 4-bedroom apartments. It has 121 total residences and features a state-of-the-art fitness center, rooftop terrace with BBQ grills, coworking spaces, spa, 24 hour concierge, and views of the Biscayne Bay and a Beach Club. The residences at VIDA Edgewater offer spacious balconies, gourmet kitchen, Euro-style appliances, Built-out closets, and much more. The design team that conceived VIDA is Kobi Karp Miami; and it was developed by Urbana Holdings the masterminds behind the Artmore Hotel, Sheraton Arlington, and more. VIDA is located in the vibrant area of Edgewater, in Miami Dade county, where new residential super luxury skyscrapers are transforming the Miami skyline and right next to Downtown, Midtown, the Design District and Wynwood!',
@@ -75,9 +78,12 @@ $review_data = [
 		'address' => '600 NE 1st Ave, Miami, FL 33132, USA',
 		'overall_rate' => ['name' => 'Overall Rating', 'rate' => 4.9],
 		'ratings' => [
-			"1" => ['name' => 'Quality Rating', 'rate' => 9.7],
-			"2" => ['name' => 'Expert Rating', 'rate' => 9.6],
-			"3" => ['name' => 'Users Rating', 'rate' => 9.8]
+    	"1" => ['name' => 'Staff', 'icon' => 'fa-user-circle-o', 'rate' => 8.7],
+    	"2" => ['name' => 'Facilities', 'icon' => 'fa-building', 'rate' => 8.6],
+    	"3" => ['name' => 'Cleanliness', 'icon' => 'fa-recycle', 'rate' => 8.8],
+    	"4" => ['name' => 'Comfort', 'icon' => 'fa-bath', 'rate' => 8.8],
+    	"5" => ['name' => 'Value for money', 'icon' => 'fa-money', 'rate' => 8.8],
+    	"6" => ['name' => 'Location', 'icon' => 'fa-map-marker', 'rate' => 8.8]
 		],
 		'description' => '600 Miami World Center will be the latest condominium tower with short term rentals allowed (AirBnB) featuring Studios to 2 Bedroom configurations in the most spectacular area of Miami of recent times: The Miami World Center, the new center of the city with a blend of retail, office, hospitality, and residential offerings in one unique location.',
 		'building_features' => [
@@ -132,9 +138,12 @@ $review_data = [
 			'address' => '99 SW 7th St, Miami, FL 33130, USA',
 			'overall_rate' => ['name' => 'Overall Rating', 'rate' => 3.5],
 			'ratings' => [
-				"1" => ['name' => 'Quality Rating', 'rate' => 7.2],
-				"2" => ['name' => 'Expert Rating', 'rate' => 6.0],
-				"3" => ['name' => 'Users Rating', 'rate' => 7.2]
+	    	"1" => ['name' => 'Staff', 'icon' => 'fa-user-circle-o', 'rate' => 8.7],
+	    	"2" => ['name' => 'Facilities', 'icon' => 'fa-building', 'rate' => 9.3],
+	    	"3" => ['name' => 'Cleanliness', 'icon' => 'fa-recycle', 'rate' => 9.3],
+	    	"4" => ['name' => 'Comfort', 'icon' => 'fa-bath', 'rate' => 9.3],
+	    	"5" => ['name' => 'Value for money', 'icon' => 'fa-money', 'rate' => 9.4],
+	    	"6" => ['name' => 'Location', 'icon' => 'fa-map-marker', 'rate' => 9.1]
 			],
 			'description' => 'Lofty Residences is an elegant 43-story condo introduces a new standard of cosmopolitan living to Brickell with short term rentals allowed . This new residential tower features spectacular interiors and views, with the added value of allowing owners to do short term rentals. It was designed by the world famous firm, Arquitectonica. Lofty Residences Brickell’s perfect location allows residents to live just minutes away from several cultural attractions, arts, restaurants, luxury shopping, parks, and so much more.',
 			'building_features' => [
@@ -207,9 +216,12 @@ $review_data = [
 				'address' => '13899 Biscayne Blvd, North Miami Beach, FL 33181, USA',
 				'overall_rate' => ['name' => 'Overall Rating', 'rate' => 3.5],
 				'ratings' => [
-					"1" => ['name' => 'Quality Rating', 'rate' => 7.2],
-					"2" => ['name' => 'Expert Rating', 'rate' => 6.0],
-					"3" => ['name' => 'Users Rating', 'rate' => 7.2]
+		    	"1" => ['name' => 'Staff', 'icon' => 'fa-user-circle-o', 'rate' => 9.1],
+		    	"2" => ['name' => 'Facilities', 'icon' => 'fa-building', 'rate' => 9.2],
+		    	"3" => ['name' => 'Cleanliness', 'icon' => 'fa-recycle', 'rate' => 9.3],
+		    	"4" => ['name' => 'Comfort', 'icon' => 'fa-bath', 'rate' => 8.8],
+		    	"5" => ['name' => 'Value for money', 'icon' => 'fa-money', 'rate' => 8.8],
+		    	"6" => ['name' => 'Location', 'icon' => 'fa-map-marker', 'rate' => 8.8]
 				],
 				'description' => 'Nexo Residences is designed for the elite, with its unique modern architecture and sophisticated interior finishes, the building boasts effortless beauty with short term rentals allowed . It features the no restriction rental program, allowing its residents to maximize the investment with famous platforms for short-term, seasonal and long-term stays like AirBnB. The building\'s architect is award-winning firm Frankel Benayoun Architects Inc. The interior design and landscaping were conceived by Urban Robot. Its luxurious 254 residences ranging from Studios to 4 Bedrooms options, also feature breathtaking city views. Nexo North Miami Beach includes every amenity from a resort- style pool with towel service to a high tech fitness center. The building’s convenient location allows proximity to Downtown Miami and Aventura, Sunny Isles and more.',
 				'building_features' => [
@@ -281,9 +293,12 @@ $review_data = [
 					'address' => '2700 NW 2nd Ave, Miami, FL 33127, USA',
 					'overall_rate' => ['name' => 'Overall Rating', 'rate' => 3.5],
 					'ratings' => [
-						"1" => ['name' => 'Quality Rating', 'rate' => 7.2],
-						"2" => ['name' => 'Expert Rating', 'rate' => 6.0],
-						"3" => ['name' => 'Users Rating', 'rate' => 7.2]
+			    	"1" => ['name' => 'Staff', 'icon' => 'fa-user-circle-o', 'rate' => 7.7],
+			    	"2" => ['name' => 'Facilities', 'icon' => 'fa-building', 'rate' => 8.6],
+			    	"3" => ['name' => 'Cleanliness', 'icon' => 'fa-recycle', 'rate' => 8.8],
+			    	"4" => ['name' => 'Comfort', 'icon' => 'fa-bath', 'rate' => 8.8],
+			    	"5" => ['name' => 'Value for money', 'icon' => 'fa-money', 'rate' => 8.8],
+			    	"6" => ['name' => 'Location', 'icon' => 'fa-map-marker', 'rate' => 8.8]
 					],
 					'description' => 'Residences features 329 luxury residences. Units range in size from 478 square feet to 911 square feet. It was developed by Related Group, the prestigious developer behind Icon Brickell, SLS Lux, Brickell Heights, Hyde Beach, Baccarat Residences and many other ultra luxury buildings in South Florida. Designed by Arquitectonica and featuring sleek Interior Design by Design Agency. This centrally located residential condominium is in the vibrant Wynwood area of Miami, Florida. Some of the most important attractions are the Wynwood Walls, The Art Galleries, Fine Dining, Retail and Cultural venues that will give residents a Living Experience like in no other place in South Florida…',
 					'building_features' => [
