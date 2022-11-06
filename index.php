@@ -7,9 +7,20 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>
-         2022&#8217;s &#8220;5 Best&#8221; Lip-Plumping Products On The Market​ &#8211; Skincare Brands Reviews
-      </title>
+      <meta name="description" content="Are you planning to relocate to Miami? Then you are right on track now, From our site you can get more idea about the constructions around Miami.">
+      <meta property="og:title" content="Miami Preconstruction Reviews">
+      <meta name="og:description" content="Are you planning to relocate to Miami? Then you are right on track now, From our site you can get more idea about the constructions around Miami.">
+      <meta property="og:type" content="website">
+      <meta name="keywords" content="Miami Apartments, Apartments, Constructions  ">
+      <meta name="author" content="">
+      <meta property="og:url" content="https://m.preconstructionreviews.com">
+      <meta property="og:site_name" content="Miami Preconstruction Reviews">
+      <meta property="og:image" content="https://res.cloudinary.com/template-generator/image/upload/v1667697577/other/bn_awsc3f.jpg">
+      <meta property="fb:app_id" content="">
+      <link rel="canonical" href="https://m.preconstructionreviews.com">
+      
+      <link rel="shortcut icon" type="image/x-icon" href="assets/fav.png">
+      <title>AIRBNB SHORT TERM RENTALS</title>
 
       <link rel="stylesheet" type="text/css" href="styles.css" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -254,11 +265,11 @@
                                                 itemscope=""
                                                 itemprop="reviewRating"
                                                 >
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star"></span>
-                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star <?php if($value['overall_rate']['rate']>=1) echo "checked"; ?>"></span>
+                                                <span class="fa fa-star <?php if($value['overall_rate']['rate']>=2) echo "checked"; ?>"></span>
+                                                <span class="fa fa-star <?php if($value['overall_rate']['rate']>=3) echo "checked"; ?>"></span>
+                                                <span class="fa fa-star <?php if($value['overall_rate']['rate']>=4) echo "checked"; ?>"></span>
+                                                <span class="fa fa-star <?php if($value['overall_rate']['rate']>=5) echo "checked"; ?>"></span>
                                                 <span itemprop="ratingValue" class="elementor-screen-only">4.9/5</span>
                                              </div>
                                           </div>
@@ -447,21 +458,10 @@
                   <div class="elementor-element-populated">
                      <div
                         >
-                        <div>© 2022 SkincareBrandsReviews.com. All rights reserved.</div>
+                        <div>© <script>new Date().getFullYear()>document.write(new Date().getFullYear());</script> preconstructionreviews.com. All rights reserved.</div>
                         <div>&nbsp;</div>
                         <div>
-                           *Disclaimer: These statements have not been evaluated by the Food and Drug Administration. These
-                           products are not intended to treat, cure or prevent any disease. Results may vary and are not
-                           guaranteed. The content contained on this site is not intended to and does not constitute
-                           medical advice, and no doctor/patient relationship is formed. The accuracy, completeness,
-                           adequacy, or currency of the content is not warranted or guaranteed. The use of information on
-                           the site or materials linked from the site is at the user’s own risk,and such information is
-                           subject to change without notice. The contents of this website, such as text, graphics, images
-                           and other materials contained on this Website regardless of the originating source are for
-                           informational purposes only. The content is not intended to be a substitute for professional
-                           medical advice, diagnosis, or treatment. Users should always seek the advice of physicians or
-                           other qualified health provider or expert with any questions you may have regarding a medical
-                           condition.
+                           IMPORTANT Disclaimer: Information on this site is intended strictly for informational purposes. All trademarks or registered trademarks are the property of their respective owners and not Miami Preconstruction Reviews
                         </div>
                      </div>
                   </div>
@@ -471,8 +471,9 @@
          </div>
          <!-- .comments-area -->
       </main>
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
    </body>
 </html>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
