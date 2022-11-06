@@ -139,7 +139,7 @@
                               alt="First slide"
                               />
                         </div>
-                        <div class="carousel-item">
+                        <!-- <div class="carousel-item">
                            <img
                               style="width: 100%; filter: brightness(60%)"
                               class="banner-image"
@@ -154,7 +154,7 @@
                               src="assets/images/slide 3.jpg"
                               alt="Third slide"
                               />
-                        </div>
+                        </div> -->
                      </div>
                   </div>
                </div>
