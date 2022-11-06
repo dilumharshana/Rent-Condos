@@ -211,7 +211,7 @@
                         data-id="6bc9da6b"
                         data-element_type="column"
                         >
-                        <div class="container shadow-lg p-3 mb-5 bg-white" style="border-radius: 25px">
+                        <div class="container shadow-lg p-3 mb-2 " style="border-radius: 25px">
                            <div class="row">
                               <div class="col">
                                  <div
@@ -247,6 +247,9 @@
                                  <br>
                                  <div><?php echo $value['sub_txt_3']; ?></div>
                                  <span><?php echo $value['address']; ?></span>
+                                 <br><br>
+                                 <div>Architect/s: <?php echo $value['architect']; ?></div>
+                                 <span>Developed by<?php echo $value['developer']; ?></span>
                               </div>
                               <div class="col-sm-12 col-md-4 col-lg-5 col-xl-5 mt-sm-5 mt-md-5 mt-3 d-flex flex-column">
                                  <div class="col">
@@ -280,11 +283,11 @@
                                     <div class="elementor-widget-container">
                                        <ul class="elementor-icon-list-items">
                                           <?php foreach($value['ratings'] as $rateKey=>$rateValue): ?>
-                                          <li class="elementor-icon-list-item">
-                                             <span class="elementor-icon-list-icon">
-                                             <i aria-hidden="true" class="fas fa-award"></i>
+                                          <li class="elementor-icon-list-item" style="list-style: none;">
+                                             <span class="elementor-icon-list-icon" style="color: green;">
+                                             <i aria-hidden="true" class="fa <?php echo $rateValue['icon'] ?>"></i>
                                              </span>
-                                             <span class="elementor-icon-list-text"><?php echo $rateValue['name'] ?>: <?php echo $rateValue['rate'] ?>/10</span>
+                                             <span class="elementor-icon-list-text"><?php echo $rateValue['name'] ?>:<b> <?php echo $rateValue['rate'] ?>/10</b></span>
                                           </li>
                                           <?php endforeach; ?>
                                        </ul>
