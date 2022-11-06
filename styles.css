@@ -1,7 +1,7 @@
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 100px) {
+@media (max-width: 576px) {
   .banner-title {
-    font-size: 10px;
+    font-size: 20px;
   }
 
   .banner-title-heading {
@@ -9,27 +9,13 @@
   }
 
   .banner-image {
-    max-height: 100px;
-  }
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  .banner-title {
-    font-size: 15px;
-  }
-
-  .banner-title-heading {
-    font-size: 8px;
-  }
-
-  .banner-image {
-    max-height: 300px;
+    min-height: 80vh;
+    content: url('assets/images/banner-mob.jpg');
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .banner-title {
     font-size: 20px;
   }
@@ -39,7 +25,8 @@
   }
 
   .banner-image {
-    max-height: 400px;
+    min-height: 80vh;
+    content: url('assets/images/banner.jpg');
   }
 }
 /* Large devices (desktops, 992px and up) */
@@ -55,6 +42,7 @@
 
   .banner-image {
     max-height: 500px;
+    content: url('assets/images/banner.jpg');
   }
 }
 
@@ -67,6 +55,7 @@
 
   .banner-image {
     max-height: 500px;
+    content: url('assets/images/banner.jpg');
   }
 }
 
@@ -79,6 +68,7 @@
 
   .banner-image {
     max-height: 700px;
+    content: url('assets/images/banner.jpg');
   }
 }
 

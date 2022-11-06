@@ -82,6 +82,7 @@
          transform: scale(0.95);
          }
       </style>
+      
    </head>
    <body
       class="page-template-default page page-id-15 elementor-default elementor-kit-70 elementor-page elementor-page-15"
@@ -123,6 +124,7 @@
                         AIRBNB SHORT TERM RENTALS
                      </h1>
                   </div>
+     
                   <div
                      id="carouselExampleSlidesOnly"
                      class="carousel slide"
@@ -131,12 +133,17 @@
                      >
                      <div class="carousel-inner">
                         <div class="carousel-item active">
-                           <img
+<picture>
+  <source media="(max-width:578px)" srcset="assets/images/banner-mob.jpg">
+  <img
                               style="width: 100%; filter: brightness(60%)"
                               class="banner-image"
                               src="assets/images/banner.jpg"
                               alt="First slide"
                               />
+</picture>
+
+                          
                         </div>
                         <div class="carousel-item">
                            <img
