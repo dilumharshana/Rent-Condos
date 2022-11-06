@@ -163,7 +163,7 @@
                         </div>
                      </div> -->
                      <video id="" class="video" autoPlay loop muted playsInline>
-                              <source src="assets/videos/bannervid2.mp4" type="video/mp4" />
+                              <source src="assets/videos/bannervid.mp4" type="video/mp4" />
                             </video>
                   </div>
                </div>
