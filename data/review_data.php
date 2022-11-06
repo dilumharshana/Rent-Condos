@@ -4,9 +4,9 @@ $review_data = [
   "1" => [
     'name' => '#1 VIDA Edgewater',
     'images' => [
-    	['url'=> 'assets/images/slide1.jpg', 'is_active'=> 'active'], 
-    	['url'=> 'assets/images/slide 2.jpg', 'is_active'=> ''], 
-    	['url'=> 'assets/images/slide 3.jpg', 'is_active'=> '']
+    	['url'=> 'assets/images/vida.webp', 'is_active'=> 'active'], 
+    	['url'=> 'assets/images/vida1.jpg', 'is_active'=> ''], 
+    	['url'=> 'assets/images/vida2.png', 'is_active'=> '']
     ],
     'sub_txt_1' => 'VIDA Edgewater Residences',
     'sub_txt_2' => 'Midtown - Edgewater / 2024',
