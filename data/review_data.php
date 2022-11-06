@@ -127,7 +127,7 @@ $review_data = [
 		"3" => [
 			'name' => '#3 Lofty Residences',
 			'images' => [
-				['url'=> 'assets/images/3-1.webp', 'is_active'=> 'active'], 
+				['url'=> 'assets/images/loft.jpg', 'is_active'=> 'active'], 
 				// ['url'=> 'assets/images/3-2.webp', 'is_active'=> ''], 
 			],
 			'sub_txt_1' => 'Lofty Residences Brickell',
