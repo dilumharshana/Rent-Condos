@@ -83,7 +83,7 @@
          }
          .video {
   object-fit: cover;
-  width: 100vw;
+  width: 100%;
   height: 80vh;
   z-index: -1;
   /* filter: brightness(40%); */
