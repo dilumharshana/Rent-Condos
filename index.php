@@ -121,7 +121,7 @@
                         The Rise of Ready-to-Rent Condos in Miami
                      </h1>
                      <p class="m-0" style="font-size: 24px; font-weight:100;">Condo developments designed as home-sharing properties are multiplying.</p>
-                     <p style="font-size: 24px; font-weight:100;">Here we compare and show you the pros and cons for 4 preconstruction projects that allow</p>
+                     <p style="font-size: 24px; font-weight:100;">Here we compare and show you the pros and cons for 5 preconstruction projects that allow</p>
                      <h3 class="mt-4 banner-title-heading" style="color: rgb(255, 255, 255); font-weight: bold">
                         AIRBNB SHORT TERM RENTALS
                      </h3>
