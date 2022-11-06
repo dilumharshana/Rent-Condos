@@ -81,6 +81,13 @@
          a.navigator:active{
          transform: scale(0.95);
          }
+         .video {
+  object-fit: cover;
+  width: 100%;
+  height: 80vh;
+  z-index: -1;
+  /* filter: brightness(40%); */
+}
       </style>
       
    </head>
@@ -96,9 +103,9 @@
                   --   :::::: B A N N E R   G O E S   H E R E : :  :   :    :     :        :          :
                   -- ────────────────────────────────────────────────────────────────────────────────── banner
                   -->
-               <div class="container-fluid text-center" style="background: #182848" class="text-center">
+               <div class="container-fluid text-center p-sm-3 p-xl-1" style="background: #182848;" class="text-center">
                   <h3
-                     class="elementor-heading-title elementor-size-default diplay-5"
+                     class="elementor-heading-title elementor-size-default diplay-5 top-heading p-3"
                      style="color: #fff; padding-top: 1%; padding-bottom: 1%"
                      href="javascript:void(0)"
                      >
@@ -112,14 +119,13 @@
                      position: absolute;
                      width: 100%;
                      font-family: Arial, Helvetica, sans-serif;
-                     font-weight: bold;
                      color: #ffffff;
                      top: 20%;
                      z-index: 1;
                      "
                      >
-                     Condo developments designed as home-sharing properties are multiplying. <br />
-                     Here we compare and show you the pros and cons for 4 preconstruction projects that allow
+                     <span>Condo developments designed as home-sharing properties are multiplying. <br />
+                     Here we compare and show you the pros and cons for 4 preconstruction projects that allow</span>
                      <h1 class="mt-4 banner-title-heading" style="color: rgb(255, 255, 255); font-weight: bold">
                         AIRBNB SHORT TERM RENTALS
                      </h1>
@@ -129,9 +135,9 @@
                      id="carouselExampleSlidesOnly"
                      class="carousel slide"
                      data-ride="carousel"
-                     style="background-color: #182848"
+                  
                      >
-                     <div class="carousel-inner">
+                     <!-- <div class="carousel-inner">
                         <div class="carousel-item active">
 <picture>
   <source media="(max-width:578px)" srcset="assets/images/banner-mob.jpg">
@@ -161,7 +167,10 @@
                               alt="Third slide"
                               />
                         </div>
-                     </div>
+                     </div> -->
+                     <video id="" class="video" autoPlay loop muted playsInline>
+                              <source src="assets/videos/bannervid.mp4" type="video/mp4" />
+                            </video>
                   </div>
                </div>
                <div
@@ -252,11 +261,11 @@
                                  <div><?php echo $value['sub_txt_1']; ?></div>
                                  <h2><?php echo $value['sub_txt_2']; ?></h2>
                                  <br>
-                                 <div><?php echo $value['sub_txt_3']; ?></div>
-                                 <span><?php echo $value['address']; ?></span>
+                                 <div style="color:grey"><?php echo $value['sub_txt_3']; ?></div>
+                                 <span style="color:grey"><?php echo $value['address']; ?></span>
                                  <br><br>
-                                 <div>Architect/s: <?php echo $value['architect']; ?></div>
-                                 <span>Developed by<?php echo $value['developer']; ?></span>
+                                 <div style="color:grey">Architect/s: <?php echo $value['architect']; ?></div>
+                                 <span style="color:grey">Developed by<?php echo $value['developer']; ?></span>
                               </div>
                               <div class="col-sm-12 col-md-4 col-lg-5 col-xl-5 mt-sm-5 mt-md-5 mt-3 d-flex flex-column">
                                  <div class="col">
