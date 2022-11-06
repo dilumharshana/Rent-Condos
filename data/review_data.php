@@ -202,8 +202,77 @@ $review_data = [
 			],
 
 
-			"4" => [
-				'name' => '#4 Nexo Residences',
+
+				"4" => [
+					'name' => '#4 The Nomad Wynwood ',
+					'images' => [
+						['url'=> 'assets/images/midtown.png', 'is_active'=> 'active'], 
+						// ['url'=> 'assets/images/5-2.png', 'is_active'=> ''], 
+					],
+					'sub_txt_1' => 'Nomad Wynwood Residences',
+					'sub_txt_2' => 'Midtown - Edgewater / 2024',
+					'sub_txt_3' => '9 Stories / 329 Residences of Studios, 1 & 2 Bedrooms',
+					'architect' => ' Arquitectonica',
+					'developer' => ' Related Group',
+					'address' => '2700 NW 2nd Ave, Miami, FL 33127, USA',
+					'overall_rate' => ['name' => 'Overall Rating', 'rate' => 3.5],
+					'ratings' => [
+			    	"1" => ['name' => 'Staff', 'icon' => 'fa-user-circle-o', 'rate' => 7.7],
+			    	"2" => ['name' => 'Facilities', 'icon' => 'fa-building', 'rate' => 8.6],
+			    	"3" => ['name' => 'Cleanliness', 'icon' => 'fa-recycle', 'rate' => 8.8],
+			    	"4" => ['name' => 'Comfort', 'icon' => 'fa-bath', 'rate' => 8.8],
+			    	"5" => ['name' => 'Value for money', 'icon' => 'fa-money', 'rate' => 8.8],
+			    	"6" => ['name' => 'Location', 'icon' => 'fa-map-marker', 'rate' => 8.8]
+					],
+					'description' => 'Residences features 329 luxury residences. Units range in size from 478 square feet to 911 square feet. It was developed by Related Group, the prestigious developer behind Icon Brickell, SLS Lux, Brickell Heights, Hyde Beach, Baccarat Residences and many other ultra luxury buildings in South Florida. Designed by Arquitectonica and featuring sleek Interior Design by Design Agency. This centrally located residential condominium is in the vibrant Wynwood area of Miami, Florida. Some of the most important attractions are the Wynwood Walls, The Art Galleries, Fine Dining, Retail and Cultural venues that will give residents a Living Experience like in no other place in South Florida…',
+					'building_features' => [
+						'Globally-acclaimed NoMad curation and design',
+						'Rooftop NoMad Restaurant and Bar with separate elevator',
+						'Inspired, impeccable landscaping',
+						'Full-service rooftop pool, sun deck and cabanas',
+						'24 hour concierge and building security',
+						'Two expansive lobbies and retail spaces',
+						'24/7 valet parking and in-building garage',
+						'Top-tier fitness and wellness center, with dedicated outdoor fitness lawns',
+						'Grilling area and outdoor cinema',
+						'Extensive library and co-working spaces',
+						'Bicycle storage',
+						'In-residence cuisine delivered on demand',
+						'Dedicated check-in services',
+						'Privately controlled elevator access',
+						'Smart climate control',
+						'Private storage',
+						'Pet-friendly',
+					],
+					'residence_features' => [
+						'Fully furnished and creatively curated by NoMad and the award-winning DesignAgency',
+						'Floor-to-ceiling sliding glass doors',
+						'Private balconies in all residences',
+						'Spacious walk-in closets in most residences',
+						'9+ foot ceilings',
+						'Streamlined modern kitchens with Bosch appliances',
+						'Imported Italian-designed cabinetry',
+						'Adaptable, open layouts',
+						'Exquisite stone countertops',
+						'Brass fixtures in bathrooms',
+						'Expansive spa showers',
+						'Washer and dryer',
+
+					],
+					'pros' => [
+						'-',
+						'-',
+						'-',
+						'-'
+					],
+					'cons' => [
+						'-',
+						'-'
+					]
+				  ],
+
+			"5" => [
+				'name' => '#5 Nexo Residences',
 				'images' => [
 					['url'=> 'assets/images/nexo.png', 'is_active'=> 'active'], 
 					// ['url'=> 'assets/images/4-2.jpg', 'is_active'=> ''], 
@@ -276,76 +345,8 @@ $review_data = [
 					'-',
 					'-'
 				]
-				],
+				]
 
-
-				"5" => [
-					'name' => '#5 The Nomad Wynwood ',
-					'images' => [
-						['url'=> 'assets/images/midtown.png', 'is_active'=> 'active'], 
-						// ['url'=> 'assets/images/5-2.png', 'is_active'=> ''], 
-					],
-					'sub_txt_1' => 'Nomad Wynwood Residences',
-					'sub_txt_2' => 'Midtown - Edgewater / 2024',
-					'sub_txt_3' => '9 Stories / 329 Residences of Studios, 1 & 2 Bedrooms',
-					'architect' => ' Arquitectonica',
-					'developer' => ' Related Group',
-					'address' => '2700 NW 2nd Ave, Miami, FL 33127, USA',
-					'overall_rate' => ['name' => 'Overall Rating', 'rate' => 3.5],
-					'ratings' => [
-			    	"1" => ['name' => 'Staff', 'icon' => 'fa-user-circle-o', 'rate' => 7.7],
-			    	"2" => ['name' => 'Facilities', 'icon' => 'fa-building', 'rate' => 8.6],
-			    	"3" => ['name' => 'Cleanliness', 'icon' => 'fa-recycle', 'rate' => 8.8],
-			    	"4" => ['name' => 'Comfort', 'icon' => 'fa-bath', 'rate' => 8.8],
-			    	"5" => ['name' => 'Value for money', 'icon' => 'fa-money', 'rate' => 8.8],
-			    	"6" => ['name' => 'Location', 'icon' => 'fa-map-marker', 'rate' => 8.8]
-					],
-					'description' => 'Residences features 329 luxury residences. Units range in size from 478 square feet to 911 square feet. It was developed by Related Group, the prestigious developer behind Icon Brickell, SLS Lux, Brickell Heights, Hyde Beach, Baccarat Residences and many other ultra luxury buildings in South Florida. Designed by Arquitectonica and featuring sleek Interior Design by Design Agency. This centrally located residential condominium is in the vibrant Wynwood area of Miami, Florida. Some of the most important attractions are the Wynwood Walls, The Art Galleries, Fine Dining, Retail and Cultural venues that will give residents a Living Experience like in no other place in South Florida…',
-					'building_features' => [
-						'Globally-acclaimed NoMad curation and design',
-						'Rooftop NoMad Restaurant and Bar with separate elevator',
-						'Inspired, impeccable landscaping',
-						'Full-service rooftop pool, sun deck and cabanas',
-						'24 hour concierge and building security',
-						'Two expansive lobbies and retail spaces',
-						'24/7 valet parking and in-building garage',
-						'Top-tier fitness and wellness center, with dedicated outdoor fitness lawns',
-						'Grilling area and outdoor cinema',
-						'Extensive library and co-working spaces',
-						'Bicycle storage',
-						'In-residence cuisine delivered on demand',
-						'Dedicated check-in services',
-						'Privately controlled elevator access',
-						'Smart climate control',
-						'Private storage',
-						'Pet-friendly',
-					],
-					'residence_features' => [
-						'Fully furnished and creatively curated by NoMad and the award-winning DesignAgency',
-						'Floor-to-ceiling sliding glass doors',
-						'Private balconies in all residences',
-						'Spacious walk-in closets in most residences',
-						'9+ foot ceilings',
-						'Streamlined modern kitchens with Bosch appliances',
-						'Imported Italian-designed cabinetry',
-						'Adaptable, open layouts',
-						'Exquisite stone countertops',
-						'Brass fixtures in bathrooms',
-						'Expansive spa showers',
-						'Washer and dryer',
-
-					],
-					'pros' => [
-						'-',
-						'-',
-						'-',
-						'-'
-					],
-					'cons' => [
-						'-',
-						'-'
-					]
-				  ]
 ];
 
 

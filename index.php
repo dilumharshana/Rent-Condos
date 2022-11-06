@@ -63,7 +63,7 @@
          background: linear-gradient(to right,#ffad17 ,#ffaf1b);
          background-color: #ffad17;
          color: #000000;
-         font-family: Arial;
+         font-family: 'Open Sans',sans-serif;
          font-size: 21px;
          font-weight: 400;
          font-style: normal;
@@ -99,7 +99,7 @@
                <div class="container-fluid text-center" style="background: #182848" class="text-center">
                   <h3
                      class="elementor-heading-title elementor-size-default diplay-5 top-title p-3"
-                     style="color: #fff; padding-top: 1%; padding-bottom: 1%"
+                     style="color: #fff; padding-top: 1%; padding-bottom: 1%; font-weight: 100;"
                      href="javascript:void(0)"
                      >
                      Airbnb’s business is booming — and rates are rising
@@ -111,17 +111,20 @@
                      style="
                      position: absolute;
                      width: 100%;
-                     font-family: Arial, Helvetica, sans-serif;
+                     font-family: 'Open Sans',sans-serif;
                      color: #ffffff;
                      top: 20%;
                      z-index: 1;
                      "
                      >
-                     Condo developments designed as home-sharing properties are multiplying. <br />
-                     Here we compare and show you the pros and cons for 4 preconstruction projects that allow
                      <h1 class="mt-4 banner-title-heading" style="color: rgb(255, 255, 255); font-weight: bold">
-                        AIRBNB SHORT TERM RENTALS
+                        The Rise of Ready-to-Rent Condos in Miami
                      </h1>
+                     <p class="m-0" style="font-size: 24px; font-weight:100;">Condo developments designed as home-sharing properties are multiplying.</p>
+                     <p style="font-size: 24px; font-weight:100;">Here we compare and show you the pros and cons for 4 preconstruction projects that allow</p>
+                     <h3 class="mt-4 banner-title-heading" style="color: rgb(255, 255, 255); font-weight: bold">
+                        AIRBNB SHORT TERM RENTALS
+                     </h3>
                   </div>
      
                   <div
