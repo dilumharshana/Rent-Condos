@@ -52,10 +52,15 @@ $review_data = [
     	'Keyless entry system'
     ],
     'pros' => [
-    	'-',
-    	'-',
-    	'-',
-    	'-'
+    	'Fully Furnished',
+    	'Rental can be pay daily',
+    	'In house management available',
+    	'Sufficient parking space available',
+		'Will be delivery in 2024',
+		'One of leading hospitality experience developer',
+		'Lockout',
+		'Unit price available under $1,100 /SQFT',
+		'Beach Club available'
     ],
     'cons' => [
     	'-',
@@ -113,14 +118,15 @@ $review_data = [
 			'Fully built-out, generous closets',
 		],
 		'pros' => [
-			'-',
-			'-',
-			'-',
-			'-'
+			'Furnished',
+			'Rental can be pay daily',
+			'In house management available',
 		],
 		'cons' => [
-			'-',
-			'-'
+			'Parking space not Available',
+			'Not a leading hospitality experience developer',
+			'No lockout',
+			'Beach club not available'
 		]
 		],
 
@@ -190,14 +196,15 @@ $review_data = [
 				'Imported European cabinets with premium hardware and drawer pulls',
 			],
 			'pros' => [
-				'-',
-				'-',
-				'-',
-				'-'
+				'Furnished',
+				'Rental can be pay daily',
+				'In house management available',
 			],
 			'cons' => [
-				'-',
-				'-'
+				'Parking space not Available',
+				'Not a leading hospitality experience developer',
+				'No lockout',
+				'Beach club not available'
 			]
 			],
 
@@ -267,14 +274,15 @@ $review_data = [
 					'On-site concierge dedicated to residents&#39; and guests&#39; needs',
 				],
 				'pros' => [
-					'-',
-					'-',
-					'-',
-					'-'
+					'Furnished',
+					'Rental can be pay daily',
+					'In house management available',
+					'Parking space Available'
 				],
 				'cons' => [
-					'-',
-					'-'
+					'Not a leading hospitality experience developer',
+					'No lockout',
+					'Beach club not available'
 				]
 				],
 
@@ -336,14 +344,16 @@ $review_data = [
 
 					],
 					'pros' => [
-						'-',
-						'-',
-						'-',
-						'-'
+						'Furnished',
+						'Rental can be pay daily',
+						'In house management available',
+						'Parking space Available',
+						'Will be delivery in 2024'
 					],
 					'cons' => [
-						'-',
-						'-'
+						'Not a leading hospitality experience developer',
+						'No lockout',
+						'Beach club not available'
 					]
 				  ]
 ];
