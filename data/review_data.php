@@ -63,8 +63,6 @@ $review_data = [
 		'Beach Club available'
     ],
     'cons' => [
-    	'-',
-    	'-'
     ]
 	],
 
