@@ -7,7 +7,7 @@ $review_data = [
 						['url'=> 'assets/images/midtown.png', 'is_active'=> 'active'], 
 						// ['url'=> 'assets/images/5-2.png', 'is_active'=> ''], 
 					],
-					'link' => ['name' => 'Read More', 'url'=>'p/the-nomad-wynwood.php'],
+					'link' => ['name' => 'Read more', 'url'=>'p/the-nomad-wynwood.php'],
 					'sub_txt_1' => 'Nomad Wynwood Residences',
 					'sub_txt_2' => 'Midtown - Edgewater / 2024',
 					'sub_txt_3' => '9 Stories / 329 Residences of Studios, 1 & 2 Bedrooms',
@@ -70,14 +70,14 @@ $review_data = [
 						'No lockout',
 						'Beach club not available'
 					]
-				],
+				  ],
 			"4" => [
 				'name' => '#4 Nexo Residences',
 				'images' => [
 					['url'=> 'assets/images/nexo.png', 'is_active'=> 'active'], 
 					// ['url'=> 'assets/images/4-2.jpg', 'is_active'=> ''], 
 				],
-				'link' => ['name' => 'Read More', 'url'=>'p/nexo-residence.php'],
+				'link' => ['name' => 'Read more', 'url'=>'p/nexo-residence.php'],
 				'sub_txt_1' => 'Nexo Residences Miami',
 				'sub_txt_2' => 'New Construction / 2025',
 				'sub_txt_3' => '5 Stories / 254 Residences of Studios, 1, 2, 3 & 4 Bedrooms',
@@ -154,7 +154,7 @@ $review_data = [
 				['url'=> 'assets/images/loft.jpg', 'is_active'=> 'active'], 
 				// ['url'=> 'assets/images/3-2.webp', 'is_active'=> ''], 
 			],
-			'link' => ['name' => 'Read More', 'url'=>'p/lofty-residences.php'],
+			'link' => ['name' => 'Read more', 'url'=>'p/lofty-residences.php'],
 			'sub_txt_1' => 'Lofty Residences Brickell',
 			'sub_txt_2' => 'Brickell / 2025',
 			'sub_txt_3' => '43 Stories / 288 Residences of Studios, 1 & 2 Bedrooms',
@@ -232,7 +232,7 @@ $review_data = [
 			['url'=> 'assets/images/600MWC.jpg', 'is_active'=> 'active'], 
 			// ['url'=> 'assets/images/2-2.jpg', 'is_active'=> '']
 		],
-		'link' => ['name' => 'Read More', 'url'=>'p/miami-world-center.php'],
+		'link' => ['name' => 'Read more', 'url'=>'p/miami-world-center.php'],
 		'sub_txt_1' => '600 Miami World Center',
 		'sub_txt_2' => 'Miami Downtown / 2026',
 		'sub_txt_3' => '40 Stories / 400 Residences of Studios, 1 & 2 Bedrooms',
@@ -294,6 +294,7 @@ $review_data = [
     	// ['url'=> 'assets/images/vida1.jpg', 'is_active'=> ''], 
     	// ['url'=> 'assets/images/vida2.png', 'is_active'=> '']
     ],
+    'link' => ['name' => 'Read more', 'url'=>'p/vida-edgewater.php'],
     'sub_txt_1' => 'VIDA Edgewater Residences',
     'sub_txt_2' => 'Midtown - Edgewater / 2024',
     'sub_txt_3' => '9 Stories / 121 Residences of Studios, 1, 2, 3 & 4 Bedrooms',
@@ -309,7 +310,6 @@ $review_data = [
     	"5" => ['name' => 'Value for money', 'icon' => 'fa-money', 'rate' => 9.8],
     	"6" => ['name' => 'Location', 'icon' => 'fa-map-marker', 'rate' => 9.8]
     ],
-    'link' => ['name' => 'Read More', 'url'=>'p/vida-edgewater.php'],
     'description' => 'VIDA Edgewater is an innovative and contemporary 9-story building with the highly profitable capacity for short term rentals (AirBnB) featuring Studios 1-2 -3 and 4-bedroom apartments. It has 121 total residences and features a state-of-the-art fitness center, rooftop terrace with BBQ grills, coworking spaces, spa, 24 hour concierge, and views of the Biscayne Bay and a Beach Club. The residences at VIDA Edgewater offer spacious balconies, gourmet kitchen, Euro-style appliances, Built-out closets, and much more. The design team that conceived VIDA is Kobi Karp Miami; and it was developed by Urbana Holdings the masterminds behind the Artmore Hotel, Sheraton Arlington, and more. VIDA is located in the vibrant area of Edgewater, in Miami Dade county, where new residential super luxury skyscrapers are transforming the Miami skyline and right next to Downtown, Midtown, the Design District and Wynwood!',
     'building_features' => [
     	'Over 22,000 sq. ft of amenities',
@@ -349,16 +349,6 @@ $review_data = [
 		'Beach Club available'
     ],
     'cons' => [
-    	'-',
-    	'-'
     ]
 	]
 ];
-
-
-
-
-                                               
-                                        
-
-                                             
